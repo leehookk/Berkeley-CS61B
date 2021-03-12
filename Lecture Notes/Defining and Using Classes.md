@@ -1,4 +1,4 @@
-### usage of *static* in Java
+### 1. usage of *static* in Java
 
 #### static variable
 
