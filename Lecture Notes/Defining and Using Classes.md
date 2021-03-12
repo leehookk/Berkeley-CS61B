@@ -4,7 +4,7 @@
 
 * staic variable refers to the common propety of all the objects of a class.
 * staic variable only gets allocated a memory space once in the class area. 
-*example: counter()
+* Therefore, if in any instance object of the class, a specific propety variable is the same, we can make it *staic* so that we can save n-1 memory space. (n is the number of instance objects) 
 
 #### static method
 * can have the access to static variable/method and change the value of it. cannot call non-static variable or method.
