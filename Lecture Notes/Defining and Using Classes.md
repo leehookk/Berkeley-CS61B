@@ -6,12 +6,12 @@
 * staic variable only gets allocated a memory space once in the class area. 
 *example: counter()
 
-### static method
+#### static method
 * can have the access to static variable/method and change the value of it. cannot call non-static variable or method.
 * belongs to the class not a specific instance, no need to create an instance of the class. Can use the Class.*static method* to use it. 
 * this and super cannot be used in the static context.
 
-### addition:
+#### addition:
 
 * why the *main* method has to be static?
 because in this way, there is no need to create an extra instance for the outermost layer class  before calling the main method, which can save the memory space.
